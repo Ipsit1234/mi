@@ -24,9 +24,9 @@ SECRET_KEY = 'is-pn9r90!3_q61o(a*9e^3r1%ka2@+9ilo=+b*)g555jl^d--'
 #SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY','is-pn9r90!3_q61o(a*9e^3r1%ka2@+9ilo=+b*)g555jl^d--')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False #True for testing locally
+DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1']
+ALLOWED_HOSTS = []
 
 
 # Application definition
